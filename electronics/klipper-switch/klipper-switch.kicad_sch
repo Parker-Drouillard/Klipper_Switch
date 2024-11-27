@@ -1,0 +1,55 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e5df92b1-e048-41e8-96e5-ed9a12dbef0e")
+	(paper "A4")
+	(title_block
+		(title "klipper-switch")
+		(rev "V 1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 25.4)
+		(size 25.4 152.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8040985a-5eaa-4ffd-a81f-f30f9f1fb608")
+		(property "Sheetname" "pico"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pico.kicad_sch"
+			(at 25.4 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
