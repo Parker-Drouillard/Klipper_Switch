@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "projectSymbols")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/klipper-switch.kicad_sym")(options "")(descr ""))
+  (lib (name "klipper-switch")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/klipper-switch.kicad_sym")(options "")(descr ""))
 )
