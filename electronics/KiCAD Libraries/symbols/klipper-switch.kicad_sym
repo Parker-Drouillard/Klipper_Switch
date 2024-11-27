@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U2"
-			(at 20.32 15.24 0)
+			(at 20.066 9.398 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18,29 +18,31 @@
 			)
 		)
 		(property "Value" "BV1LF080EFJ-CE2"
-			(at 20.32 12.7 0)
+			(at 20.574 7.112 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "BV1LF080EFJ-CE2_ROM"
-			(at 20.32 10.16 0)
+		(property "Footprint" "klipper-switch:BV1LF080EFJ-CE2_ROM"
+			(at 20.32 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "BV1LF080EFJ-CE2"
-			(at 20.32 7.62 0)
+			(at 19.558 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power Switch/Driver 1:1 N-Channel 7.5A 8-HTSOP-J"
@@ -80,7 +82,7 @@
 			)
 		)
 		(property "Supplier" "Digikey.ca"
-			(at 0 0 0)
+			(at 20.32 -25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,14 +97,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "BV1LF080EFJ-CE2"
