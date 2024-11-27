@@ -8,10 +8,3923 @@
 		(title "klipper-switch")
 		(rev "V 1.0")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 104.14 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0aa2c1fd-c240-4c34-b816-a1fdfe5de743")
+	)
+	(junction
+		(at 88.9 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1db84cfc-8c4f-47dc-b1e9-981c80b220f2")
+	)
+	(junction
+		(at 111.76 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e441b28-9b08-46a3-8e40-37c287f7de4d")
+	)
+	(junction
+		(at 119.38 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33ee320d-e6bf-4e31-9888-e404200a94d3")
+	)
+	(junction
+		(at 115.57 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36218dbb-cd7a-4ad0-9136-2c13588f0176")
+	)
+	(junction
+		(at 96.52 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47cf4b82-2431-4b26-8964-817c1d0827f8")
+	)
+	(junction
+		(at 127 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c4b2e5b-3928-4773-9c1b-8760008a2dfe")
+	)
+	(junction
+		(at 85.09 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a7f944f-2c1f-45cf-92e8-368971ebd778")
+	)
+	(junction
+		(at 123.19 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aa16f1f-d68c-4834-a7a0-7ac78b5b6812")
+	)
+	(junction
+		(at 92.71 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f767e1c-eb24-40de-9bfb-b4cc8e59bc24")
+	)
+	(junction
+		(at 107.95 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5b8ce04-4d0a-4564-8707-e78d9c8bb35e")
+	)
+	(junction
+		(at 100.33 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3964919-3eed-4db7-87f0-7b6ef7fba1ea")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 123.19 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038e90b3-9f27-4858-aa6f-efc6c93638b4")
+	)
+	(wire
+		(pts
+			(xy 143.51 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d96a98-af00-4879-9672-13e3665f860a")
+	)
+	(wire
+		(pts
+			(xy 114.3 55.88) (xy 135.89 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063b3b8e-4327-4b54-97e9-fc3b52a32744")
+	)
+	(wire
+		(pts
+			(xy 50.8 35.56) (xy 88.9 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08171b83-8a05-4cbd-a445-b0ac22e2002b")
+	)
+	(wire
+		(pts
+			(xy 92.71 139.7) (xy 92.71 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0826d848-a6be-4f0d-be78-12cd7f2b50de")
+	)
+	(wire
+		(pts
+			(xy 85.09 91.44) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae991e6-489f-467a-9405-b26219164f59")
+	)
+	(wire
+		(pts
+			(xy 92.71 86.36) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b774b48-9277-4e42-8ce6-39236c15ab9f")
+	)
+	(wire
+		(pts
+			(xy 50.8 66.04) (xy 123.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7e0037-7d3d-4575-86f9-10d81f211ae4")
+	)
+	(wire
+		(pts
+			(xy 50.8 27.94) (xy 88.9 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13877fc7-32b6-4586-b0c5-8fe311d4302b")
+	)
+	(wire
+		(pts
+			(xy 143.51 78.74) (xy 165.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f6f454-d799-4f69-bf2e-6f96f33ac6cb")
+	)
+	(wire
+		(pts
+			(xy 107.95 129.54) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174b1ead-c744-4a7c-abe7-302beaa1b578")
+	)
+	(wire
+		(pts
+			(xy 50.8 71.12) (xy 115.57 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac60093-9e8c-4358-abb0-9f75f8225146")
+	)
+	(wire
+		(pts
+			(xy 143.51 48.26) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7712f3-2f71-416f-ab22-e3608ebb562d")
+	)
+	(wire
+		(pts
+			(xy 119.38 121.92) (xy 119.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cac3df0-152a-44a3-95da-4d2cc849d8ae")
+	)
+	(wire
+		(pts
+			(xy 165.1 124.46) (xy 115.57 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d07d979-f0c3-4c76-b485-3b6c86094dfa")
+	)
+	(wire
+		(pts
+			(xy 165.1 134.62) (xy 100.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb90048-023f-4b19-89bc-25f5d6f94310")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 135.89 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b925d0-c3f2-49b5-9b23-588f1b38dc8f")
+	)
+	(wire
+		(pts
+			(xy 165.1 129.54) (xy 107.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c4cc03-4f15-4b88-aad5-b29ffe85a5e5")
+	)
+	(wire
+		(pts
+			(xy 96.52 137.16) (xy 96.52 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4518a028-b708-4482-b1fe-fc6031fd7851")
+	)
+	(wire
+		(pts
+			(xy 143.51 86.36) (xy 165.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4656e299-5000-42cc-b887-76c11ad7dd0c")
+	)
+	(wire
+		(pts
+			(xy 50.8 53.34) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48365921-3b1a-4cf1-b06d-d5a4b6b99792")
+	)
+	(wire
+		(pts
+			(xy 165.1 127) (xy 111.76 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4839ad5b-4a2f-43af-9417-24cc5338a980")
+	)
+	(wire
+		(pts
+			(xy 50.8 55.88) (xy 88.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5171c5bc-387c-4efc-b70f-c068b2b4a7ca")
+	)
+	(wire
+		(pts
+			(xy 143.51 83.82) (xy 165.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53488697-b28f-4ead-9fe2-4f7e950176f2")
+	)
+	(wire
+		(pts
+			(xy 114.3 43.18) (xy 135.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5410de1f-5a52-4860-b138-d9f32d5cae64")
+	)
+	(wire
+		(pts
+			(xy 100.33 81.28) (xy 100.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542c5428-e76c-4e4d-9e88-8ad87f90e187")
+	)
+	(wire
+		(pts
+			(xy 119.38 68.58) (xy 135.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54944c86-ecaa-4329-81ba-d244b4e37d5e")
+	)
+	(wire
+		(pts
+			(xy 104.14 78.74) (xy 135.89 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ebf623-737d-4cf8-97c7-18822418ebe7")
+	)
+	(wire
+		(pts
+			(xy 143.51 91.44) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6cbf8d-f802-405b-8f25-e74f306271d4")
+	)
+	(wire
+		(pts
+			(xy 114.3 33.02) (xy 135.89 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c095ad4-1bc2-4104-a365-f0c2b1e0333b")
+	)
+	(wire
+		(pts
+			(xy 143.51 40.64) (xy 165.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb903ab-a622-4891-9954-704b90beafe0")
+	)
+	(wire
+		(pts
+			(xy 114.3 27.94) (xy 135.89 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62020ff0-ab89-4b21-ab1d-12e09d938723")
+	)
+	(wire
+		(pts
+			(xy 143.51 63.5) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639c0c20-528e-4ec3-94f9-d10a690c112c")
+	)
+	(wire
+		(pts
+			(xy 165.1 144.78) (xy 85.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664b1201-aef7-404f-8db5-e303f0f56c8f")
+	)
+	(wire
+		(pts
+			(xy 50.8 30.48) (xy 88.9 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68bb1bfb-b739-4fd2-a4b2-9b5eebd7b376")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 88.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d524f7d-9a10-47ba-9a7d-37ada5062f18")
+	)
+	(wire
+		(pts
+			(xy 107.95 76.2) (xy 135.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72645c8a-f50d-495b-afbe-28a0fc2d689e")
+	)
+	(wire
+		(pts
+			(xy 50.8 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764e56f0-bb3b-4abd-be2b-cb28ffb31dfd")
+	)
+	(wire
+		(pts
+			(xy 50.8 33.02) (xy 88.9 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765694dd-d75f-4b3b-9b5a-67bcfd6c405c")
+	)
+	(wire
+		(pts
+			(xy 143.51 68.58) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765eab52-1e36-4d36-acb6-80a2ebe43821")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 135.89 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774ffbb8-a756-4da6-a8af-bb8c532ac0b6")
+	)
+	(wire
+		(pts
+			(xy 127 63.5) (xy 135.89 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777f3856-7222-47f0-b88f-c442def56448")
+	)
+	(wire
+		(pts
+			(xy 143.51 33.02) (xy 165.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7877af34-00bf-4b58-b718-9e16ba68b789")
+	)
+	(wire
+		(pts
+			(xy 143.51 73.66) (xy 165.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba40670-03cd-492d-98c5-bcd2466e6592")
+	)
+	(wire
+		(pts
+			(xy 50.8 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e209a86-2db9-4d1e-8520-d836e2d07130")
+	)
+	(wire
+		(pts
+			(xy 50.8 91.44) (xy 85.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f462bff-85cc-4842-8765-1f649ce4f34c")
+	)
+	(wire
+		(pts
+			(xy 50.8 50.8) (xy 88.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84226e31-f4cf-42ec-9802-f9134ee90123")
+	)
+	(wire
+		(pts
+			(xy 143.51 88.9) (xy 165.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84970854-d6c9-4c59-b619-a9b4653f54f2")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 135.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84be7586-9010-41fa-abb5-a63e1308a234")
+	)
+	(wire
+		(pts
+			(xy 143.51 55.88) (xy 165.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8559b4c4-ecce-4b8d-ba60-1a724380d39f")
+	)
+	(wire
+		(pts
+			(xy 165.1 121.92) (xy 119.38 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a2e185-3acb-407c-8346-eecc73ed1061")
+	)
+	(wire
+		(pts
+			(xy 115.57 71.12) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8638fd4a-45d4-41cb-bd98-721a9dccf735")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 135.89 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d74b24-0668-44eb-9c4b-c59d6fbd1992")
+	)
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 96.52 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a65f0d1-376c-4869-b186-378ec893dcb9")
+	)
+	(wire
+		(pts
+			(xy 50.8 68.58) (xy 119.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a704218-d869-41d2-bbfa-854ef4994847")
+	)
+	(wire
+		(pts
+			(xy 50.8 45.72) (xy 88.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9313c7f8-0e15-4129-8198-4ae2eb5d55ee")
+	)
+	(wire
+		(pts
+			(xy 50.8 81.28) (xy 100.33 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c2b5c7-5b4e-4969-85f6-bd7d1222d379")
+	)
+	(wire
+		(pts
+			(xy 50.8 86.36) (xy 92.71 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cf0aa6-5cb8-4ed0-899d-3c15065bbfbe")
+	)
+	(wire
+		(pts
+			(xy 143.51 50.8) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965707fc-d76e-47f6-beed-fe89c3e7ef47")
+	)
+	(wire
+		(pts
+			(xy 100.33 81.28) (xy 135.89 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971a8acc-3d4f-4cbf-9c78-4c5d4ba1b83d")
+	)
+	(wire
+		(pts
+			(xy 114.3 30.48) (xy 135.89 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f0385a-eb26-4197-99c6-247122e3b3eb")
+	)
+	(wire
+		(pts
+			(xy 165.1 142.24) (xy 88.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f362fd-eddf-4e6e-bc57-8f6500634bf8")
+	)
+	(wire
+		(pts
+			(xy 96.52 83.82) (xy 135.89 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a317730-68f8-485e-82b6-6828e5b0eafb")
+	)
+	(wire
+		(pts
+			(xy 50.8 38.1) (xy 88.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c73807c-1eec-43ba-9399-dc0ab73aae11")
+	)
+	(wire
+		(pts
+			(xy 165.1 139.7) (xy 92.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5d7fc4-df2f-4304-9dcb-eaafb808e3f6")
+	)
+	(wire
+		(pts
+			(xy 50.8 43.18) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03ce05e-3b76-44d1-9a24-ac66f4c9e6f7")
+	)
+	(wire
+		(pts
+			(xy 165.1 119.38) (xy 123.19 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b8d37e-ab01-42ae-b7d7-8942033b70db")
+	)
+	(wire
+		(pts
+			(xy 114.3 53.34) (xy 135.89 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3396186-4fa7-49e2-8ed3-4b3628895b3b")
+	)
+	(wire
+		(pts
+			(xy 50.8 78.74) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e539bb-b92e-4406-bd0c-ac1aa1d1bdb7")
+	)
+	(wire
+		(pts
+			(xy 143.51 43.18) (xy 165.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9ed19d-bb3e-429f-bb4f-84685c69be48")
+	)
+	(wire
+		(pts
+			(xy 115.57 124.46) (xy 115.57 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b176432f-2e60-47a6-b283-ea2769fd9726")
+	)
+	(wire
+		(pts
+			(xy 143.51 71.12) (xy 165.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bc79ce-ccb5-4c72-95ba-d851cadcffc0")
+	)
+	(wire
+		(pts
+			(xy 111.76 73.66) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc286170-4f28-4f0d-9190-e21242956eaf")
+	)
+	(wire
+		(pts
+			(xy 165.1 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ec7d4d-496f-4e50-aeb4-d94561b023d1")
+	)
+	(wire
+		(pts
+			(xy 88.9 142.24) (xy 88.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d59d8d-c7ce-41e5-947d-e59602924b94")
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 135.89 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65d50ea-9384-4786-8878-a03eb97cd302")
+	)
+	(wire
+		(pts
+			(xy 50.8 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce25a3de-37ac-4dfb-9591-f280e0600608")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 135.89 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89f6904-4c76-4346-ae87-598e79e19089")
+	)
+	(wire
+		(pts
+			(xy 114.3 38.1) (xy 135.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e6d80d-5d29-427b-96c5-f23240c7747b")
+	)
+	(wire
+		(pts
+			(xy 143.51 81.28) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd04668-e691-4dcf-b8fe-ccd908b28176")
+	)
+	(wire
+		(pts
+			(xy 111.76 127) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd706efa-babe-4773-a1db-c5a8533dec7e")
+	)
+	(wire
+		(pts
+			(xy 143.51 66.04) (xy 165.1 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "defb8dce-36b2-46c9-99dd-dcc2779a9a64")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1da8f35-a514-4aa3-a3f3-5ce201a7b5ff")
+	)
+	(wire
+		(pts
+			(xy 104.14 132.08) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ffa504-018a-4294-ace0-85bd8d5eef69")
+	)
+	(wire
+		(pts
+			(xy 143.51 27.94) (xy 165.1 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e68c42d9-29a6-41c7-ac89-aa9b2c8e70a8")
+	)
+	(wire
+		(pts
+			(xy 114.3 35.56) (xy 135.89 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7242301-08be-4fca-bc13-8248692af8b5")
+	)
+	(wire
+		(pts
+			(xy 165.1 132.08) (xy 104.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e6574e-fab2-4ee6-91cd-e3e4c10b9928")
+	)
+	(wire
+		(pts
+			(xy 143.51 45.72) (xy 165.1 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bb21e4-5fbc-411b-9111-4f389315bd27")
+	)
+	(wire
+		(pts
+			(xy 143.51 30.48) (xy 165.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91263ae-9c8b-40db-9856-7b2f2e03e613")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 165.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebddd1a4-a500-49d1-bdc0-a52a96182680")
+	)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 88.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd3213c-c5e0-4dca-b106-8cd52b0a105a")
+	)
+	(wire
+		(pts
+			(xy 165.1 137.16) (xy 96.52 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef96c691-7cee-42b2-8f3f-add1c3e0badf")
+	)
+	(wire
+		(pts
+			(xy 143.51 53.34) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5eb4403-9fec-4e10-ba24-1eb956a10d77")
+	)
+	(wire
+		(pts
+			(xy 85.09 144.78) (xy 85.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f667d4ed-3cd1-44c5-89d0-7239e48933c0")
+	)
+	(wire
+		(pts
+			(xy 143.51 35.56) (xy 165.1 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd300062-d8b4-4d6c-a6ec-f8857c0981a9")
+	)
+	(wire
+		(pts
+			(xy 50.8 40.64) (xy 88.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee3ca86-512a-4750-95b2-07a0c773c944")
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 30.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "29fbfab8-3c49-4076-830f-0bb5a48a6c53")
+		(property "Reference" "JP2"
+			(at 145.796 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b4c5112-472b-4f91-be56-51e1c0f658c5")
+		)
+		(pin "2"
+			(uuid "59541a2f-6b1a-47b6-8845-de07c415d072")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 63.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dbcebb8-5f05-473f-b13c-b6958bd98413")
+		(property "Reference" "JP13"
+			(at 145.796 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47e93363-d242-4665-8298-dc4bdc3dfec4")
+		)
+		(pin "2"
+			(uuid "4be39014-7197-4c85-bf59-12db189159b9")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 68.58 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "34da73fe-b166-4256-9e4c-4d887d87df8a")
+		(property "Reference" "JP15"
+			(at 145.796 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98d75d25-a55e-488e-92b6-7128045b81a4")
+		)
+		(pin "2"
+			(uuid "1d7c13b6-b5a1-4815-a1b9-9048884a46d6")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 86.36 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a4d440a-0ab9-4a14-9db7-c957ce3d6069")
+		(property "Reference" "JP22"
+			(at 145.796 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d414e8c0-5227-4818-ac25-0e99b38d81db")
+		)
+		(pin "2"
+			(uuid "c319fc46-8b02-46f6-9a06-6c56db33fdc6")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 66.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c7555c8-260b-4db7-83b5-95b42d9a3ea4")
+		(property "Reference" "JP14"
+			(at 145.796 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "136031b2-1bb1-436a-847f-9ce49c46c891")
+		)
+		(pin "2"
+			(uuid "9cb68c28-7c08-4fa3-b063-bf30f78de2a4")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 78.74 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dad8d7c-097d-445c-86f0-1a09b54fc1e2")
+		(property "Reference" "JP19"
+			(at 145.796 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6197943-63c8-4464-83af-c0d6c405f350")
+		)
+		(pin "2"
+			(uuid "ec8330c8-0958-4a91-8205-f1ab0ad60791")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 71.12 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dbe5f08-9fd8-412a-9184-c8577e8a94d9")
+		(property "Reference" "JP16"
+			(at 145.796 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bf85ca3-0fb7-4300-837f-fe88cd9d1122")
+		)
+		(pin "2"
+			(uuid "0ac040b3-1403-497b-8564-65db3ae17364")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 27.94 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8debab55-073b-453c-acf5-d58b212849db")
+		(property "Reference" "JP1"
+			(at 145.796 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb275f8b-068c-42e7-b759-af423dcb9b20")
+		)
+		(pin "2"
+			(uuid "f5412cc6-49df-4cf1-9019-6cd16183b4ed")
+		)
+		(instances
+			(project ""
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 40.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "90c92579-729c-433c-9715-edf788055eba")
+		(property "Reference" "JP6"
+			(at 145.796 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38925c13-053e-49fe-994a-49a952245772")
+		)
+		(pin "2"
+			(uuid "1fa8ffde-6473-4e46-a0da-d7c229c6aba6")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 38.1 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9af85953-840b-47d3-8622-1d54691be110")
+		(property "Reference" "JP5"
+			(at 145.796 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "798b9a9c-1e8f-4571-9b2b-5748bbd45764")
+		)
+		(pin "2"
+			(uuid "4dd3b113-b2c4-45e0-a63a-67f8ad2ac0c5")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 43.18 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3480552-6c2a-45e7-8258-706ddd8cd942")
+		(property "Reference" "JP7"
+			(at 145.796 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41ca94a9-8034-4091-ab32-35bba5d6cd6e")
+		)
+		(pin "2"
+			(uuid "e7579256-2045-49a9-a36d-b1bd77ebc52c")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 73.66 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b840a803-c4c8-4577-9604-e6e80553bd0b")
+		(property "Reference" "JP17"
+			(at 145.796 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "506ca912-d12f-4c91-80ff-05a79dd5364f")
+		)
+		(pin "2"
+			(uuid "863ab1bd-3571-477b-89c9-cae04fb1fa01")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 81.28 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba6847e1-b9c5-46fd-a138-374ef30ef029")
+		(property "Reference" "JP20"
+			(at 145.796 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41ada500-b247-424d-afd3-2eef254cb7af")
+		)
+		(pin "2"
+			(uuid "a71c5b39-f873-438b-bfb5-cdd04ccf800b")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 45.72 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb9025e8-61c4-45e3-a499-c98be66b78f4")
+		(property "Reference" "JP8"
+			(at 145.796 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4751efd-380b-480d-88b5-dcc7b2a95420")
+		)
+		(pin "2"
+			(uuid "8fbbc924-7e91-4d82-8c3a-23d4e48395d1")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 76.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdb8f824-7642-4307-b363-ab329b8337d0")
+		(property "Reference" "JP18"
+			(at 145.796 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b66ba7a-e28c-4451-9e5a-4494e3af9a50")
+		)
+		(pin "2"
+			(uuid "e4bfa7a1-4d8e-4416-ae3d-e0075458addb")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 48.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0ae32a4-ddea-4d6c-ac01-eba6518cfdc3")
+		(property "Reference" "JP9"
+			(at 145.796 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5d9649e-3531-4ee8-987f-305e5d61bae0")
+		)
+		(pin "2"
+			(uuid "b5b009b1-fdf5-4943-aae2-326066bfd0ea")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 91.44 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c102e23d-2fa1-4931-ba1d-c458fb2c93e9")
+		(property "Reference" "JP24"
+			(at 145.796 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aab94185-81c2-417b-ad63-7a3e2a4f722c")
+		)
+		(pin "2"
+			(uuid "44d035f7-3db3-4255-b041-a39509feabea")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 50.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d33e7999-9ee4-41e0-9ebb-606bb531e3b1")
+		(property "Reference" "JP10"
+			(at 145.796 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31334e5f-c80e-4b18-9130-b28208c913b8")
+		)
+		(pin "2"
+			(uuid "0e787d93-8b50-4fe5-b953-12507c473311")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 83.82 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3d7935a-7462-4226-8d99-cfad59560d6b")
+		(property "Reference" "JP21"
+			(at 145.796 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cffc984-2fd1-46da-a2d9-38ca951a877a")
+		)
+		(pin "2"
+			(uuid "67663774-40d8-4212-9525-a9ef286d9cb4")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 35.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3dcdea9-1bea-470d-abd3-2fff243d688e")
+		(property "Reference" "JP4"
+			(at 145.796 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81c0ab57-b3f2-49c3-83dc-5a791b849c2f")
+		)
+		(pin "2"
+			(uuid "ff5e469d-cd6c-4101-b722-00ad0a3ff0fc")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 88.9 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcb9d5b9-d8e6-4d7a-b7c8-09a6b14f6426")
+		(property "Reference" "JP23"
+			(at 145.796 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "933deeb5-03d3-47c8-a533-3253142da936")
+		)
+		(pin "2"
+			(uuid "7fec5b14-3615-4f91-8ff2-840bca7ca6af")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 53.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2eb8585-129b-4948-8ca1-837c6f576f69")
+		(property "Reference" "JP11"
+			(at 145.796 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d80a34b5-2d9c-4374-bb86-37fa0712faea")
+		)
+		(pin "2"
+			(uuid "771a87a9-dfb7-4b76-8337-c75aab9b60a6")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 33.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3412ffd-f63f-48c4-802a-a20241555b92")
+		(property "Reference" "JP3"
+			(at 145.796 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bce379a5-330a-4105-bb82-cdf29aaf198a")
+		)
+		(pin "2"
+			(uuid "97269b54-34b8-434a-be49-c9d5b92d02bb")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 55.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6409215-0e69-4ff3-8e87-e57903d9fee9")
+		(property "Reference" "JP12"
+			(at 145.796 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer#" ""
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier#" ""
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" ""
+			(at 139.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0deb8ad2-cf98-4a50-8c2b-6430e5b3531e")
+		)
+		(pin "2"
+			(uuid "24c772c5-f424-4657-897e-ea558e15f536")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(reference "JP12")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 76.2 152.4)
-		(size 25.4 25.4)
+		(at 165.1 114.3)
+		(size 25.4 38.1)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -22,7 +3935,7 @@
 		)
 		(uuid "2e68f332-7c8a-4385-9fa4-b712e37aa3fc")
 		(property "Sheetname" "LEDs"
-			(at 76.2 151.6884 0)
+			(at 165.1 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,13 +3944,133 @@
 			)
 		)
 		(property "Sheetfile" "LEDs.kicad_sch"
-			(at 76.2 178.3846 0)
+			(at 165.1 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "LED_CH_B" input
+			(at 165.1 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a439f21-8dd5-4118-bc55-1481f00793bf")
+		)
+		(pin "LED_CH_A" input
+			(at 165.1 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a47ce07f-8998-48b8-87ac-6623b89ec11f")
+		)
+		(pin "LED_CH_G" input
+			(at 165.1 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a78e1fdd-ceeb-4665-a630-d99ca7bf4b21")
+		)
+		(pin "LED_CH_E" input
+			(at 165.1 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f62749d7-6210-4fd2-addb-ac58ef72a99d")
+		)
+		(pin "LED_CH_H" input
+			(at 165.1 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0eb1f307-af5c-406d-9765-9dbe6e2d306b")
+		)
+		(pin "LED_CH_F" input
+			(at 165.1 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "87928c47-69ed-46c8-a66e-8742fc342449")
+		)
+		(pin "LED_CH_D" input
+			(at 165.1 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "58d2c186-b480-4a98-869b-75530af2553d")
+		)
+		(pin "LED_CH_C" input
+			(at 165.1 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0aee473-88b1-4547-9c45-a00b4b4d5327")
+		)
+		(pin "LED_CH_I" input
+			(at 165.1 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b35a55f-e4de-4363-bd71-680b00d4de8a")
+		)
+		(pin "LED_CH_L" input
+			(at 165.1 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea3f8bb5-5cfd-4f92-93a6-66a4fbf1e202")
+		)
+		(pin "LED_CH_J" input
+			(at 165.1 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "99586bec-14ba-4567-9493-d776e8ab98f9")
+		)
+		(pin "LED_CH_K" input
+			(at 165.1 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4d6616b-6894-488e-8d0f-221ee430ccf0")
 		)
 		(instances
 			(project "klipper-switch"
@@ -49,7 +4082,7 @@
 	)
 	(sheet
 		(at 25.4 25.4)
-		(size 25.4 152.4)
+		(size 25.4 127)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -69,13 +4102,253 @@
 			)
 		)
 		(property "Sheetfile" "pico.kicad_sch"
-			(at 25.4 178.3846 0)
+			(at 25.4 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "GPIO_13" input
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a685331-d445-414e-8634-61d1d9bcdf13")
+		)
+		(pin "GPIO_14" input
+			(at 50.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c22866a5-2f76-4aa7-9942-0a1279dec050")
+		)
+		(pin "GPIO_15" input
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2ca9f2d1-b453-4d5b-b221-5a62aa42cd93")
+		)
+		(pin "GPIO_03" input
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "899af4ed-e25e-45ee-8424-23fddfe001c4")
+		)
+		(pin "GPIO_04" input
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8104348-28b4-4b33-9c47-dcb8c90f3d9f")
+		)
+		(pin "GPIO_05" input
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b919dd4-3349-46e4-ad69-75099164ca5e")
+		)
+		(pin "GPIO_06" input
+			(at 50.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dc7e0878-d108-4fd4-99f8-5e3b3f6f9d40")
+		)
+		(pin "GPIO_00" input
+			(at 50.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e8c5637a-c166-479a-ae72-f25133d46b79")
+		)
+		(pin "GPIO_01" input
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7203722e-85ac-470c-9ad4-28b3f5bd28d2")
+		)
+		(pin "GPIO_02" input
+			(at 50.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da3aef68-db30-4e41-ba09-c3ca70317913")
+		)
+		(pin "GPIO_07" input
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d88a3edd-176f-4288-8b58-79a4efaa443c")
+		)
+		(pin "GPIO_08" input
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "12c4e446-ab73-4a78-bf4b-c2cc761b149b")
+		)
+		(pin "GPIO_09" input
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "38d4dbb1-73f5-43d7-8fd0-db71c9929df1")
+		)
+		(pin "GPIO_10" input
+			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e522ba2e-5e0a-4aa9-8192-0279d235250e")
+		)
+		(pin "GPIO_11" input
+			(at 50.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e60f1358-56d2-43ee-85b3-a15c08ffb172")
+		)
+		(pin "GPIO_12" input
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cb6ac37c-44fc-4a6d-a178-1b0379b705cf")
+		)
+		(pin "GPIO_16" input
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26d190ee-4d09-4ba7-bd70-16ba120bd8bf")
+		)
+		(pin "GPIO_17" input
+			(at 50.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea41e4f8-edd5-48ea-bc69-a2a215f3cf71")
+		)
+		(pin "GPIO_18" input
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29c242d3-b76c-4788-903f-3b16e8bd0f56")
+		)
+		(pin "GPIO_19" input
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5129cb1d-3549-4db3-a043-18396d5d06df")
+		)
+		(pin "GPIO_21" input
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d19d5f7-731c-4b53-bca3-d60e453cf439")
+		)
+		(pin "GPIO_22" input
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b1a5c2b-4980-4e1e-9a6c-0fcf1da78c2b")
+		)
+		(pin "GPIO_20" input
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "90c43663-fa7f-4353-b221-2d7d54ba0451")
+		)
+		(pin "GPIO_23" input
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9f7b8311-62bc-4663-ad4c-9d20372f3ba8")
 		)
 		(instances
 			(project "klipper-switch"
@@ -86,8 +4359,8 @@
 		)
 	)
 	(sheet
-		(at 76.2 25.4)
-		(size 25.4 50.8)
+		(at 165.1 25.4)
+		(size 25.4 76.2)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -98,7 +4371,7 @@
 		)
 		(uuid "90668f02-67a5-40c7-9a80-63d16eb24585")
 		(property "Sheetname" "connectors"
-			(at 76.2 24.6884 0)
+			(at 165.1 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -107,7 +4380,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 76.2 76.7846 0)
+			(at 165.1 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,7 +4389,7 @@
 			)
 		)
 		(pin "CH_E_DIGITAL_OUT" input
-			(at 76.2 50.8 180)
+			(at 165.1 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,7 +4399,7 @@
 			(uuid "33647d9f-02fe-4981-b101-c8df77836b70")
 		)
 		(pin "CH_E_DIGITAL_IN" input
-			(at 76.2 49.53 180)
+			(at 165.1 38.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +4409,7 @@
 			(uuid "00d4cb37-be4e-405b-abad-00450e0586d3")
 		)
 		(pin "CH_A_DIGITAL_OUT" input
-			(at 76.2 45.72 180)
+			(at 165.1 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,7 +4419,7 @@
 			(uuid "ea5bee1f-8b61-493e-80c3-de11d6d25c60")
 		)
 		(pin "CH_F_DIGITAL_OUT" input
-			(at 76.2 43.18 180)
+			(at 165.1 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156,7 +4429,7 @@
 			(uuid "773f7b3a-bfa1-43a2-9d95-8e05d33cbbec")
 		)
 		(pin "CH_B_DIGITAL_OUT" input
-			(at 76.2 31.75 180)
+			(at 165.1 66.04 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,7 +4439,7 @@
 			(uuid "1aa5a093-6d3e-422c-bf39-b2a4c0549a8a")
 		)
 		(pin "CH_B_DIGITAL_IN" input
-			(at 76.2 27.94 180)
+			(at 165.1 30.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176,7 +4449,7 @@
 			(uuid "c8b82f0b-af95-4725-8e7f-a2844612ca12")
 		)
 		(pin "CH_A_DIGITAL_IN" input
-			(at 76.2 29.21 180)
+			(at 165.1 27.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,7 +4459,7 @@
 			(uuid "e181883b-5a9a-473d-ae7f-2763e03ab2b6")
 		)
 		(pin "CH_F_DIGITAL_IN" input
-			(at 76.2 38.1 180)
+			(at 165.1 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,7 +4469,7 @@
 			(uuid "eea7cc12-3de9-4b20-8c02-6151b15790d9")
 		)
 		(pin "CH_D_DIGITAL_OUT" input
-			(at 76.2 40.64 180)
+			(at 165.1 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206,7 +4479,7 @@
 			(uuid "763c1c6b-5d63-4a2a-9b85-dc105d3abd01")
 		)
 		(pin "CH_C_DIGITAL_IN" input
-			(at 76.2 52.07 180)
+			(at 165.1 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +4489,7 @@
 			(uuid "5ccce78c-221b-4b15-b45d-829d1754fa1d")
 		)
 		(pin "CH_C_DIGITAL_OUT" input
-			(at 76.2 54.61 180)
+			(at 165.1 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,7 +4499,7 @@
 			(uuid "575e2da5-8110-4f50-a784-6aee43a2385c")
 		)
 		(pin "CH_G_DIGITAL_IN" input
-			(at 76.2 71.12 180)
+			(at 165.1 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -236,7 +4509,7 @@
 			(uuid "b9571151-7fe7-4643-935e-e203812d4d91")
 		)
 		(pin "CH_H_DIGITAL_OUT" input
-			(at 76.2 64.77 180)
+			(at 165.1 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -246,7 +4519,7 @@
 			(uuid "e7eec396-c900-4477-bfcd-8e52729f172a")
 		)
 		(pin "CH_D_DIGITAL_IN" input
-			(at 76.2 60.96 180)
+			(at 165.1 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,7 +4529,7 @@
 			(uuid "a85205a7-6980-4c96-a449-558ffcb17afa")
 		)
 		(pin "CH_H_DIGITAL_IN" input
-			(at 76.2 67.31 180)
+			(at 165.1 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -264,6 +4537,96 @@
 				(justify left)
 			)
 			(uuid "d64ba0cb-5ca5-4f7d-bb72-547d8751ae07")
+		)
+		(pin "CH_G_DIGITAL_OUT" input
+			(at 165.1 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8522c9a-609e-4077-b8e0-4666450d669c")
+		)
+		(pin "CH_L_DIGITAL_OUT" input
+			(at 165.1 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "953b1250-b192-45ca-bffe-86bf097c2e8f")
+		)
+		(pin "CH_J_DIGITAL_OUT" input
+			(at 165.1 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b536ad5-99f9-411c-ac9b-a43cece50256")
+		)
+		(pin "CH_K_DIGITAL_OUT" input
+			(at 165.1 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "82f8ac4f-db29-431e-9dc3-7459661b5cc0")
+		)
+		(pin "CH_I_DIGITAL_OUT" input
+			(at 165.1 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d25c513b-b768-4454-85e7-73660ea49588")
+		)
+		(pin "CH_L_DIGITAL_IN" input
+			(at 165.1 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "418c666b-f626-44e9-bfb9-bb913fb508ba")
+		)
+		(pin "CH_J_DIGITAL_IN" input
+			(at 165.1 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "63bfb496-669b-45d9-b8ee-0b5626a00e06")
+		)
+		(pin "CH_K_DIGITAL_IN" input
+			(at 165.1 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8cd0eeca-0acf-4803-ac0a-b638876fc347")
+		)
+		(pin "CH_I_DIGITAL_IN" input
+			(at 165.1 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4239c9fe-c043-46c3-938b-f4fa5b5a2d9e")
 		)
 		(instances
 			(project "klipper-switch"
@@ -274,8 +4637,8 @@
 		)
 	)
 	(sheet
-		(at 76.2 88.9)
-		(size 25.4 50.8)
+		(at 88.9 25.4)
+		(size 25.4 34.29)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -286,7 +4649,7 @@
 		)
 		(uuid "b0f08f3a-364c-4de3-9791-29197c17985e")
 		(property "Sheetname" "opto-isolators"
-			(at 76.2 88.1884 0)
+			(at 88.9 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -295,13 +4658,253 @@
 			)
 		)
 		(property "Sheetfile" "opto-isolators.kicad_sch"
-			(at 76.2 140.2846 0)
+			(at 88.9 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "OUT_CH_C" input
+			(at 88.9 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6634aea4-5de9-4bab-8e8d-35684b79f921")
+		)
+		(pin "IN_CH_A" input
+			(at 114.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0b344796-2755-4f01-a835-d29b88bef4b2")
+		)
+		(pin "IN_CH_C" input
+			(at 114.3 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "66768104-a9d3-4823-98f1-606b363d6829")
+		)
+		(pin "IN_CH_E" input
+			(at 114.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5271b5b2-5979-4664-9c2f-1f6aa986c2ee")
+		)
+		(pin "OUT_CH_A" input
+			(at 88.9 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c82bbe79-6d7f-422e-9c07-16f8507d6114")
+		)
+		(pin "OUT_CH_B" input
+			(at 88.9 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3944902d-db2d-4530-8675-f3a136732396")
+		)
+		(pin "IN_CH_B" input
+			(at 114.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0ed452d9-3034-4b7a-91a0-7bc65fe68e0a")
+		)
+		(pin "OUT_CH_F" input
+			(at 88.9 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3bc326a-2f63-4ce7-bcc3-d91162eac2fc")
+		)
+		(pin "OUT_CH_H" input
+			(at 88.9 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f76e77ee-7b7b-42ea-bf54-5ffe17826a0a")
+		)
+		(pin "IN_CH_H" input
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37f2a5d4-be73-46cc-b159-cb41539471ed")
+		)
+		(pin "OUT_CH_G" input
+			(at 88.9 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce721f87-0c44-4c24-9f90-0534542d3b25")
+		)
+		(pin "OUT_CH_E" input
+			(at 88.9 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ecbed1f7-a75b-4865-89e1-6312554e3308")
+		)
+		(pin "IN_CH_G" input
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c47a59aa-fce1-412c-8cf9-cf5a3d02f487")
+		)
+		(pin "OUT_CH_D" input
+			(at 88.9 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "391098e2-e517-444c-b4e1-5402f2f43e1a")
+		)
+		(pin "IN_CH_D" input
+			(at 114.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a40152b-0e71-419c-99d8-5cac7db09583")
+		)
+		(pin "IN_CH_F" input
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6191c99b-37c6-42d5-a431-9bca202c5375")
+		)
+		(pin "IN_CH_I" input
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e84cfde-e993-4a8b-9f6f-ba583f70b4bf")
+		)
+		(pin "OUT_CH_K" input
+			(at 88.9 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cb158ac5-eb8a-4778-8e95-0b563f79c68c")
+		)
+		(pin "IN_CH_K" input
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae4104e6-6d95-4463-9b13-e3cefe4f7dcc")
+		)
+		(pin "OUT_CH_I" input
+			(at 88.9 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "63d39787-56d8-47d5-8c0b-d9443275c2fd")
+		)
+		(pin "OUT_CH_L" input
+			(at 88.9 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c2839e8-d12a-4764-a9f9-54fa398fc961")
+		)
+		(pin "OUT_CH_J" input
+			(at 88.9 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5fe5b300-0ab1-4f79-b986-6915bcbde0b7")
+		)
+		(pin "IN_CH_J" input
+			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a4059190-22c4-4d6a-9bd7-354509134e6c")
+		)
+		(pin "IN_CH_L" input
+			(at 114.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78eacb43-4dd8-4422-8af9-53260875f8b1")
 		)
 		(instances
 			(project "klipper-switch"
