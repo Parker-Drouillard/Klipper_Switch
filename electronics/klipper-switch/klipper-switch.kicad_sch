@@ -86,8 +86,8 @@
 		)
 	)
 	(sheet
-		(at 127 25.4)
-		(size 38.1 114.3)
+		(at 76.2 25.4)
+		(size 25.4 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -98,7 +98,7 @@
 		)
 		(uuid "90668f02-67a5-40c7-9a80-63d16eb24585")
 		(property "Sheetname" "connectors"
-			(at 127 24.6884 0)
+			(at 76.2 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -107,13 +107,163 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 127 140.2846 0)
+			(at 76.2 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "CH_E_DIGITAL_OUT" input
+			(at 76.2 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33647d9f-02fe-4981-b101-c8df77836b70")
+		)
+		(pin "CH_E_DIGITAL_IN" input
+			(at 76.2 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "00d4cb37-be4e-405b-abad-00450e0586d3")
+		)
+		(pin "CH_A_DIGITAL_OUT" input
+			(at 76.2 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea5bee1f-8b61-493e-80c3-de11d6d25c60")
+		)
+		(pin "CH_F_DIGITAL_OUT" input
+			(at 76.2 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "773f7b3a-bfa1-43a2-9d95-8e05d33cbbec")
+		)
+		(pin "CH_B_DIGITAL_OUT" input
+			(at 76.2 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1aa5a093-6d3e-422c-bf39-b2a4c0549a8a")
+		)
+		(pin "CH_B_DIGITAL_IN" input
+			(at 76.2 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c8b82f0b-af95-4725-8e7f-a2844612ca12")
+		)
+		(pin "CH_A_DIGITAL_IN" input
+			(at 76.2 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e181883b-5a9a-473d-ae7f-2763e03ab2b6")
+		)
+		(pin "CH_F_DIGITAL_IN" input
+			(at 76.2 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eea7cc12-3de9-4b20-8c02-6151b15790d9")
+		)
+		(pin "CH_D_DIGITAL_OUT" input
+			(at 76.2 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "763c1c6b-5d63-4a2a-9b85-dc105d3abd01")
+		)
+		(pin "CH_C_DIGITAL_IN" input
+			(at 76.2 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5ccce78c-221b-4b15-b45d-829d1754fa1d")
+		)
+		(pin "CH_C_DIGITAL_OUT" input
+			(at 76.2 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "575e2da5-8110-4f50-a784-6aee43a2385c")
+		)
+		(pin "CH_G_DIGITAL_IN" input
+			(at 76.2 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b9571151-7fe7-4643-935e-e203812d4d91")
+		)
+		(pin "CH_H_DIGITAL_OUT" input
+			(at 76.2 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e7eec396-c900-4477-bfcd-8e52729f172a")
+		)
+		(pin "CH_D_DIGITAL_IN" input
+			(at 76.2 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a85205a7-6980-4c96-a449-558ffcb17afa")
+		)
+		(pin "CH_H_DIGITAL_IN" input
+			(at 76.2 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d64ba0cb-5ca5-4f7d-bb72-547d8751ae07")
 		)
 		(instances
 			(project "klipper-switch"
@@ -157,44 +307,6 @@
 			(project "klipper-switch"
 				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 76.2 25.4)
-		(size 25.4 50.8)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e09baa11-0f0f-4a75-93cd-ed9c56dbfe89")
-		(property "Sheetname" "switches"
-			(at 76.2 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "switches.kicad_sch"
-			(at 76.2 76.7846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
-					(page "3")
 				)
 			)
 		)
