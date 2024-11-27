@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "klipper-switch")(type "KiCad")(uri "C:/Users/Parker Drouillard/Documents/KiCadGit/Klipper_Switch/electronics/KiCAD Libraries/footprints/klipper-switch.pretty")(options "")(descr ""))
+  (lib (name "klipper-switch")(type "KiCad")(uri "${KIPRJMOD} /libraries/footprints/klipper-switch.pretty")(options "")(descr ""))
 )
