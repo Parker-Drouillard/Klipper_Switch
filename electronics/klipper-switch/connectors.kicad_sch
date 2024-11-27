@@ -8,241 +8,6 @@
 		(title "klipper-switch, connectors")
 	)
 	(lib_symbols
-		(symbol "151031SS06000_1"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D2"
-				(at 2.2226 -3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "151031SS06000"
-				(at 1.524 -3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "LED_THT:LED_D3.0mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151031SS06000.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Red 640nm LED Indication - Discrete 2.2V Radial"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer#" "151031SS06000"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier#" "732-5006-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Digikey Electronics, Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Role" "LED_12V"
-				(at -0.3174 -3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Manufacturer" "Würth Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Forward Voltage" "2.2 V"
-				(at -2.8574 -3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Max Current" "20 mA"
-				(at -5.3974 -3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "151031SS06000_1_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "151031SS06000_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "430450400_1"
 			(pin_names
 				(offset 0.254)
@@ -901,33 +666,29 @@
 				)
 			)
 		)
-		(symbol "klipper-switch:151031SS06000"
-			(pin_numbers hide)
+		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D6"
-				(at -0.3174 -3.81 90)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Value" "151031SS06000"
-				(at 1.524 -3.81 90)
+			(property "Value" "Conn_02x04_Odd_Even"
+				(at 1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "LED_THT:LED_D3.0mm"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -936,7 +697,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151031SS06000.pdf"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -945,7 +706,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Red 640nm LED Indication - Discrete 2.2V Radial"
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -954,7 +715,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer#" "151031SS06000"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -963,7 +724,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier#" "732-5006-ND"
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -972,715 +733,110 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier" "Digikey Electronics, Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Role" "LED_"
-				(at -0.254 -9.398 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Würth Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Forward Voltage" "2.2 V"
-				(at -2.794 -13.462 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Max Current" "20 mA"
-				(at -2.794 -6.858 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "151031SS06000_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "151031SS06000_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "klipper-switch:MM3Z18VT1G"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D5"
-				(at -1.2701 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MM3Z18VT1G"
-				(at -6.35 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/9/MM3ZyyyT1G_SZMM3ZyyyT1G_Series_rev.11_Sep2014.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener Diode 18 V 300 mW ±6% Surface Mount SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Digikey Electronics, Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer#" "MM3Z18VT1GOSCT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier#" "MM3Z18VT1GOSCT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "onsemi"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Role" "ZENER"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Zener Voltage" "18 VDC"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Max Power" "300 mW"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MM3Z18VT1G_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MM3Z18VT1G_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "klipper-switch:RC1206FR-07100KL"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R5"
-				(at 2.54 3.8101 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100K"
-				(at 2.54 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier#" "311-100KFRCT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Digikey Electronics, Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Role" "R_ZENDER_LIMIT"
-				(at -2.54 -7.62 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer#" "RC1206FR-07100KL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Series" "RC_L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 2.54 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RC1206FR-07100KL_0_1"
+			(symbol "Conn_02x04_Odd_Even_1_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "RC1206FR-07100KL_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "klipper-switch:RC1206FR-7W100RL_1"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R1"
-				(at 2.54 3.8101 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100R"
-				(at 2.54 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100 Ohms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier#" "13-RC1206FR-7W100RLCT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Digikey Electronics, Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Role" "R_LED"
-				(at 2.54 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer#" "RC1206FR-7W100RL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Series" "RC_L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 2.54 -3.8099 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RC1206FR-7W100RL_1_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "RC1206FR-7W100RL_1_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1696,9 +852,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1713,349 +869,10 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "klipper-switch:RK7002BMT116"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q1"
-				(at 6.35 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "RK7002BMT116"
-				(at 6.35 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "klipper-switch:RK7002BMT116"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.rohm.com/datasheet?p=RK7002BM&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-Channel 60 V 250mA (Ta) 200mW (Ta) Surface Mount SST3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer#" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Digikey Electronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier#" "RK7002BMT116CT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Rohm Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part # " "C157736"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "NULL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Role" "SW_LED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RK7002BMT116_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "RK7002BMT116_1_1"
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
+					(length 3.81)
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2063,6 +880,96 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2650,28 +1557,22 @@
 		)
 	)
 	(junction
-		(at 50.8 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08a7cd2e-2543-4781-95ce-716038de7c68")
-	)
-	(junction
 		(at 25.4 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14bbbefa-36ed-44ba-934a-8962cb8a7e2e")
 	)
 	(junction
+		(at 63.5 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c13ffa7-2a3c-49f4-a752-5d0a2216e4ba")
+	)
+	(junction
 		(at 106.68 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1dd927e9-99a6-489a-8b98-f504813fc5ae")
-	)
-	(junction
-		(at 127 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fba61e7-763b-4c74-b222-33ac33d4875d")
 	)
 	(junction
 		(at 139.7 30.48)
@@ -2684,12 +1585,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54219c7d-e87d-4ae2-908c-3b29cfc5bf91")
-	)
-	(junction
-		(at 88.9 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ad99e78-1bbf-427a-9143-9e19e5f57964")
 	)
 	(junction
 		(at 64.77 30.48)
@@ -2715,15 +1610,17 @@
 		(color 0 0 0 0)
 		(uuid "d666fee3-c39c-43ad-8c40-cdbf05fb0e13")
 	)
-	(wire
-		(pts
-			(xy 50.8 177.8) (xy 55.88 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0618dfcc-f133-4944-a995-0ef299d5926c")
+	(junction
+		(at 63.5 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2f142df-fc99-41b4-b6eb-ea6ccd22f78c")
+	)
+	(junction
+		(at 63.5 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e574fb6b-6390-4e37-87f5-e7ea80d68d05")
 	)
 	(wire
 		(pts
@@ -2747,36 +1644,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 156.21) (xy 139.7 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f2f4ad4-e71b-4a3c-a616-1d97d363ea28")
-	)
-	(wire
-		(pts
-			(xy 101.6 168.91) (xy 101.6 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "269ee337-2071-42a2-9d60-123777f172d6")
-	)
-	(wire
-		(pts
-			(xy 88.9 140.97) (xy 88.9 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "299998c6-4f5b-4765-bf96-4852e4d68291")
-	)
-	(wire
-		(pts
 			(xy 30.48 27.94) (xy 33.02 27.94)
 		)
 		(stroke
@@ -2784,16 +1651,6 @@
 			(type default)
 		)
 		(uuid "3098df9a-d662-41fd-ab4c-19b0c509b66c")
-	)
-	(wire
-		(pts
-			(xy 127 140.97) (xy 127 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32f95403-0d93-4136-abd4-dabcd0d80920")
 	)
 	(wire
 		(pts
@@ -2817,13 +1674,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 186.69) (xy 50.8 185.42)
+			(xy 59.69 69.85) (xy 63.5 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35b904b3-5af5-4699-b44b-4c8b62d81e44")
+		(uuid "3fd92651-9ff5-4e21-aaf7-c8438f9766be")
+	)
+	(wire
+		(pts
+			(xy 59.69 72.39) (xy 63.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4158a619-900a-4253-a65d-8008a11999c2")
 	)
 	(wire
 		(pts
@@ -2837,26 +1704,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 186.69) (xy 88.9 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41eace8e-7e33-4935-b41a-6c7eee414d71")
-	)
-	(wire
-		(pts
-			(xy 25.4 140.97) (xy 25.4 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45e03d83-7214-4e3e-b4d5-469d4d3cca73")
-	)
-	(wire
-		(pts
 			(xy 30.48 33.02) (xy 33.02 33.02)
 		)
 		(stroke
@@ -2864,26 +1711,6 @@
 			(type default)
 		)
 		(uuid "4b17be85-5ba3-40fd-83ee-fc30aa5d49e1")
-	)
-	(wire
-		(pts
-			(xy 139.7 168.91) (xy 139.7 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e394764-a92d-432e-8fc6-cfcf2908a2b3")
-	)
-	(wire
-		(pts
-			(xy 127 177.8) (xy 132.08 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "502577a3-dd05-417a-a646-c90be9542744")
 	)
 	(wire
 		(pts
@@ -2917,23 +1744,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 140.97) (xy 101.6 148.59)
+			(xy 90.17 62.23) (xy 109.22 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59c83602-57c1-4d90-ac4e-b13ea41df559")
-	)
-	(wire
-		(pts
-			(xy 88.9 156.21) (xy 88.9 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59d0df03-cce6-4dcb-a17a-d3b37f609f31")
+		(uuid "6119c68b-a652-43e5-8d27-c6567696546f")
 	)
 	(wire
 		(pts
@@ -2977,13 +1794,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 168.91) (xy 63.5 172.72)
+			(xy 39.37 69.85) (xy 46.99 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70c9cc57-d101-423e-aebf-bb56135eb7c4")
+		(uuid "74732950-5050-47af-a02d-82dde0341a5e")
 	)
 	(wire
 		(pts
@@ -3017,16 +1834,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 156.21) (xy 63.5 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e2b3c19-da4f-497a-b253-a9af8d91e3bf")
-	)
-	(wire
-		(pts
 			(xy 72.39 35.56) (xy 64.77 35.56)
 		)
 		(stroke
@@ -3047,23 +1854,33 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 177.8) (xy 93.98 177.8)
+			(xy 63.5 69.85) (xy 63.5 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83a04333-2002-4b30-87e1-578e1fa0e1c2")
+		(uuid "804ff158-6a03-4b2f-b16a-bfe1ef6f6561")
 	)
 	(wire
 		(pts
-			(xy 127 186.69) (xy 127 185.42)
+			(xy 59.69 64.77) (xy 63.5 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8456ecc3-f0ca-4003-9702-eb9a7bbaf3d5")
+		(uuid "816b4005-2be0-4357-a35e-abc2b9e1d4c3")
+	)
+	(wire
+		(pts
+			(xy 59.69 67.31) (xy 63.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e86b5c2-a0b7-47c1-b88a-042c40cf0fad")
 	)
 	(wire
 		(pts
@@ -3077,16 +1894,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 189.23) (xy 63.5 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9764fc3f-10c5-4557-939e-5421bd597b15")
-	)
-	(wire
-		(pts
 			(xy 64.77 35.56) (xy 64.77 30.48)
 		)
 		(stroke
@@ -3094,16 +1901,6 @@
 			(type default)
 		)
 		(uuid "9b535afb-66e7-4b85-bbef-664f233b9db0")
-	)
-	(wire
-		(pts
-			(xy 139.7 189.23) (xy 139.7 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6c2ec7d-86b4-420c-81b5-7a1ca79e87bd")
 	)
 	(wire
 		(pts
@@ -3127,16 +1924,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 140.97) (xy 139.7 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6b9ae8e-46e0-428c-8d4b-6db7372267b7")
-	)
-	(wire
-		(pts
 			(xy 101.6 26.67) (xy 101.6 30.48)
 		)
 		(stroke
@@ -3147,13 +1934,23 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 167.64) (xy 25.4 182.88)
+			(xy 39.37 64.77) (xy 46.99 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb75174c-37ec-419f-86b1-39cd697af09a")
+		(uuid "b9c03ba7-ded1-4893-9104-118572091687")
+	)
+	(wire
+		(pts
+			(xy 63.5 64.77) (xy 109.22 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1afec61-2469-45fa-9838-bf00199d95c1")
 	)
 	(wire
 		(pts
@@ -3187,16 +1984,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 189.23) (xy 101.6 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce11b7d8-ff33-4781-895a-ab6f52bd9f69")
-	)
-	(wire
-		(pts
 			(xy 106.68 33.02) (xy 109.22 33.02)
 		)
 		(stroke
@@ -3204,16 +1991,6 @@
 			(type default)
 		)
 		(uuid "d1ba08c3-71b7-4580-a2ad-28ad7509e019")
-	)
-	(wire
-		(pts
-			(xy 25.4 156.21) (xy 25.4 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d32fe2ca-316e-4f84-a434-ac191bbc849e")
 	)
 	(wire
 		(pts
@@ -3227,23 +2004,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 156.21) (xy 101.6 161.29)
+			(xy 39.37 67.31) (xy 46.99 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df0ce058-536b-41cd-b5f1-e4bae66cba39")
-	)
-	(wire
-		(pts
-			(xy 50.8 140.97) (xy 50.8 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e02249f2-e8f4-4a4e-84b2-bf4bae56876b")
+		(uuid "d903c3d6-12df-4af4-9e83-cd0cfbb1a903")
 	)
 	(wire
 		(pts
@@ -3257,13 +2024,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 156.21) (xy 50.8 177.8)
+			(xy 39.37 72.39) (xy 46.99 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e647510d-70da-486b-bf3f-1648e192a2a0")
+		(uuid "eb0d3fa6-88bb-458b-9079-b9819ce11216")
+	)
+	(wire
+		(pts
+			(xy 63.5 64.77) (xy 63.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec45f0ee-8e18-4e9a-a56c-ef529edac6b7")
 	)
 	(wire
 		(pts
@@ -3277,13 +2054,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 156.21) (xy 127 177.8)
+			(xy 63.5 67.31) (xy 63.5 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4ca21b5-bb8b-4658-95cc-37399a5794e4")
+		(uuid "f349223e-be19-4a9d-b920-5fca77346994")
 	)
 	(wire
 		(pts
@@ -3295,31 +2072,9 @@
 		)
 		(uuid "fbb95052-ea32-418e-88e7-eded51e91a58")
 	)
-	(wire
-		(pts
-			(xy 63.5 140.97) (xy 63.5 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda44391-97ea-4810-b8ad-2e6f0857b968")
-	)
-	(rectangle
-		(start 13.97 127)
-		(end 165.1 196.85)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 29791e2b-79ff-457b-aad8-929dad945e3e)
-	)
 	(rectangle
 		(start 12.7 52.07)
-		(end 279.4 127)
+		(end 173.99 196.85)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3327,7 +2082,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 2b8a6d86-ceed-4beb-b918-bfdcf848d68b)
+		(uuid 44810675-d27f-48b1-a886-ee2231f63676)
 	)
 	(rectangle
 		(start 12.7 12.7)
@@ -3351,16 +2106,6 @@
 		)
 		(uuid "0ea5a913-48aa-417b-9182-dde621e305cb")
 	)
-	(text "POWER INDICATION LEDs"
-		(exclude_from_sim no)
-		(at 27.178 129.794 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "574d53d0-be04-4d18-b08b-7cb22d3dc5a1")
-	)
 	(text "POWER OUTPIT CONNECTORs"
 		(exclude_from_sim no)
 		(at 27.178 54.61 0)
@@ -3372,36 +2117,17 @@
 		(uuid "6c825b18-80ba-4210-bff9-45cfd5ca2d7b")
 	)
 	(symbol
-		(lib_id "klipper-switch:151031SS06000")
-		(at 25.4 163.83 90)
+		(lib_id "power:+5V")
+		(at 39.37 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "08e28469-5831-412e-9504-7e22645a16e8")
-		(property "Reference" "D1"
-			(at 29.21 161.6074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "151031SS06000"
-			(at 29.21 162.306 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 25.4 163.83 0)
+		(uuid "07722d83-6be0-400a-8952-42cf7d7ffd3c")
+		(property "Reference" "#PWR026"
+			(at 43.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,262 +2135,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151031SS06000.pdf"
-			(at 25.4 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 640nm LED Indication - Discrete 2.2V Radial"
-			(at 25.4 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "151031SS06000"
-			(at 25.4 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "732-5006-ND"
-			(at 25.4 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 25.4 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "LED_05V"
-			(at 29.21 164.1474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 25.4 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Forward Voltage" "2.2 V"
-			(at 29.21 166.6874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Max Current" "20 mA"
-			(at 29.21 169.2274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "e7599a6e-771a-4a1e-addf-e635b9ed021f")
-		)
-		(pin "2"
-			(uuid "5fa7d3eb-7f95-4ea8-a9d8-7a39a4a9181b")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "klipper-switch:MM3Z18VT1G")
-		(at 88.9 181.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09702cad-c89b-4234-b745-0e05758aa9e9")
-		(property "Reference" "D6"
-			(at 91.44 180.3399 90)
+		(property "Value" "+5V"
+			(at 35.56 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Value" "MM3Z18VT1G"
-			(at 85.344 174.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/9/MM3ZyyyT1G_SZMM3ZyyyT1G_Series_rev.11_Sep2014.pdf"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Diode 18 V 300 mW ±6% Surface Mount SOD-323"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "MM3Z18VT1GOSCT-ND"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "MM3Z18VT1GOSCT-ND"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "ZENER"
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Zener Voltage" "18 VDC"
-			(at 88.9 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Power" "300 mW"
-			(at 88.9 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8fd69269-4ff7-4952-9d5d-1fb95d5a0c8d")
-		)
-		(pin "1"
-			(uuid "47291a1f-850b-41a5-a6bf-e53fed8b0ffb")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15fd7f89-0d8c-4b09-98a4-1d855849f799")
-		(property "Reference" "#PWR023"
-			(at 88.9 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 190.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 186.69 0)
+			(at 39.37 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +2154,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 186.69 0)
+			(at 39.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 39.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "973cca0e-f0f8-4ed3-8ca4-c4fe5f0cb1d5")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a855dec-48ae-4b2d-838d-4a7a7444fb18")
+		(property "Reference" "#PWR025"
+			(at 83.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3682,7 +2230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 186.69 0)
+			(at 90.17 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,268 +2239,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "db709f7d-89c9-4fba-bb5e-707cfd34b5d9")
+			(uuid "17e48650-e554-462c-a57a-66c71062825f")
 		)
 		(instances
-			(project "klipper-switch"
+			(project ""
 				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "430450400_1")
-		(lib_id "klipper-switch:430450400")
-		(at 109.22 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16add4e1-d36d-49d7-83b9-9196d1fad0b5")
-		(property "Reference" "J9"
-			(at 123.19 93.9799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "430450400"
-			(at 123.19 96.5199 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KiCAD-RevB-footprint-library:0430450400"
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "0430450400"
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "WM1814-ND"
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "ROLE"
-			(at 126.746 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "fc263534-e7e8-4748-9ddd-5d6b8ad89f0f")
-		)
-		(pin "2"
-			(uuid "6783f364-bcd0-48d1-969c-cce42dd56d79")
-		)
-		(pin "3"
-			(uuid "bc7cfa67-4a6c-4092-917c-9c5086b17bee")
-		)
-		(pin "4"
-			(uuid "6a945ab6-a8e0-4331-b0a0-8572d7af21d8")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "klipper-switch:RC1206FR-7W100RL_1")
-		(at 101.6 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b0df2fb-a31b-4147-ac5c-9a9d5a54c765")
-		(property "Reference" "R3"
-			(at 104.14 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 104.14 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 99.822 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 101.6 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
-			(at 101.6 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "13-RC1206FR-7W100RLCT-ND"
-			(at 101.6 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 101.6 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "R_LED"
-			(at 104.14 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer#" "RC1206FR-7W100RL"
-			(at 101.6 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 101.6 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Series" "RC_L"
-			(at 101.6 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 104.14 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "754bbbd3-7b63-4b3a-af60-f3c3dc9cd902")
-		)
-		(pin "1"
-			(uuid "9c81ba3c-76b4-4020-850d-5d3390033373")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "R3")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4019,401 +2311,6 @@
 			(project ""
 				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "klipper-switch:RC1206FR-07100KL")
-		(at 88.9 152.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e7ae470-ee90-4d38-b644-ef570648d2fa")
-		(property "Reference" "R6"
-			(at 91.44 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100K"
-			(at 91.44 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 90.678 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 88.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
-			(at 88.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "311-100KFRCT-ND"
-			(at 88.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 88.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "R_ZENDER_LIMIT"
-			(at 85.598 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Manufacturer#" "RC1206FR-07100KL"
-			(at 88.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 88.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Series" "RC_L"
-			(at 88.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 91.44 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "45f86b0c-660c-4652-bead-4963fd361bf4")
-		)
-		(pin "1"
-			(uuid "8f7dd20f-b079-4383-84e9-1c1b4f94740d")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d4e8b41-1e7d-423c-a1b9-780374e02aeb")
-		(property "Reference" "#PWR022"
-			(at 50.8 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 190.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d69c86a4-05fc-459f-8681-9bb666fab64a")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "klipper-switch:MM3Z18VT1G")
-		(at 127 181.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d853cbb-6a87-49de-b940-55b0ca755f8a")
-		(property "Reference" "D7"
-			(at 129.54 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MM3Z18VT1G"
-			(at 123.444 174.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 127 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/9/MM3ZyyyT1G_SZMM3ZyyyT1G_Series_rev.11_Sep2014.pdf"
-			(at 127 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Diode 18 V 300 mW ±6% Surface Mount SOD-323"
-			(at 127 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 127 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "MM3Z18VT1GOSCT-ND"
-			(at 127 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "MM3Z18VT1GOSCT-ND"
-			(at 127 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 127 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "ZENER"
-			(at 127 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Zener Voltage" "18 VDC"
-			(at 127 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Power" "300 mW"
-			(at 127 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a315b04d-e9f3-444f-ac04-08c846a7a287")
-		)
-		(pin "1"
-			(uuid "aab2aa7f-2858-4850-8913-064c9cc9414f")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 50.8 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f6bc90a-9102-4aa0-acb5-53964ac8ed73")
-		(property "Reference" "#PWR014"
-			(at 50.8 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 50.8 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 50.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41acefb8-b200-448e-8c0e-1fc5912cbe9c")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4544,267 +2441,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "477f222d-4eab-43e5-81ec-84263d5044a4")
-		(property "Reference" "#PWR018"
-			(at 101.6 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 193.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52d4bdec-1476-49d8-add3-21d5655b02d3")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 25.4 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "478a61fb-e28b-4cd4-b2b2-348edcc398b5")
-		(property "Reference" "#PWR03"
-			(at 25.4 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 25.4 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 25.4 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ee214da-1df0-4c0a-aa13-07964276dfc3")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "485c1bf5-4363-4a1e-afdc-35771a6800b9")
-		(property "Reference" "#PWR013"
-			(at 63.5 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 193.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "558a1390-b381-4f95-9125-399029b10dfa")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 127 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4adca299-1d9f-428a-8d8e-9672516c4b03")
-		(property "Reference" "#PWR024"
-			(at 127 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 190.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a02b88ce-2edd-409a-96e2-d67eb55bb3a4")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 106.68 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4863,252 +2499,6 @@
 			(project "klipper-switch"
 				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "430450400_1")
-		(lib_id "klipper-switch:430450400")
-		(at 236.22 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4dbd5f5f-f5ee-4f1c-8b52-998e23ec9b0d")
-		(property "Reference" "J13"
-			(at 250.19 93.9799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "430450400"
-			(at 250.19 96.5199 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KiCAD-RevB-footprint-library:0430450400"
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "0430450400"
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "WM1814-ND"
-			(at 236.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "ROLE"
-			(at 253.746 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "5f60a64e-1b94-4430-a285-be1001d9f4cd")
-		)
-		(pin "2"
-			(uuid "4668da5d-a6dd-48c9-a7e9-f48abbee4754")
-		)
-		(pin "3"
-			(uuid "77ed4bca-7bc4-418d-9fe7-02364737c711")
-		)
-		(pin "4"
-			(uuid "2da245d9-169d-4ce8-b882-53d565e46c24")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "430450400_1")
-		(lib_id "klipper-switch:430450400")
-		(at 172.72 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51323335-aab8-4df4-88c4-166ab364468a")
-		(property "Reference" "J10"
-			(at 186.69 68.5799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "430450400"
-			(at 186.69 71.1199 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KiCAD-RevB-footprint-library:0430450400"
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "0430450400"
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "WM1814-ND"
-			(at 172.72 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "ROLE"
-			(at 190.246 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "162de1f8-706f-4660-9d15-16072e9fcbb3")
-		)
-		(pin "2"
-			(uuid "330fe2b5-592f-4c07-9e48-04b40e7ce4eb")
-		)
-		(pin "3"
-			(uuid "26cdef0f-6268-447a-9712-8d39b1a94219")
-		)
-		(pin "4"
-			(uuid "e4ce09f0-e131-40a5-ba0c-804b54d92663")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -5369,610 +2759,6 @@
 		)
 	)
 	(symbol
-		(lib_name "151031SS06000_1")
-		(lib_id "klipper-switch:151031SS06000")
-		(at 101.6 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6623c510-dc1e-415e-a99f-c9de91fe9aa4")
-		(property "Reference" "D3"
-			(at 104.14 159.7024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "151031SS06000"
-			(at 97.79 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151031SS06000.pdf"
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 640nm LED Indication - Discrete 2.2V Radial"
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "151031SS06000"
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "732-5006-ND"
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "LED_24V"
-			(at 104.14 162.2424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 101.6 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Forward Voltage" "2.2 V"
-			(at 104.14 164.7824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Max Current" "20 mA"
-			(at 104.14 167.3224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "91ac2047-8b28-464f-a616-b7498442a5e5")
-		)
-		(pin "2"
-			(uuid "ec0b3316-2861-43ef-bd3a-dd8cf2ec7bb8")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "klipper-switch:RC1206FR-7W100RL_1")
-		(at 63.5 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68648067-2236-4b04-a443-7c75c6f43365")
-		(property "Reference" "R2"
-			(at 66.04 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 66.04 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 61.722 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 63.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
-			(at 63.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "13-RC1206FR-7W100RLCT-ND"
-			(at 63.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 63.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "R_LED"
-			(at 66.04 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer#" "RC1206FR-7W100RL"
-			(at 63.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 63.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Series" "RC_L"
-			(at 63.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 66.04 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "e332c98e-4c5f-4709-98d5-47a886314ac9")
-		)
-		(pin "1"
-			(uuid "bc8ca525-ebd0-462a-aabc-87b48ab95af4")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "151031SS06000_1")
-		(lib_id "klipper-switch:151031SS06000")
-		(at 63.5 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "691d0b73-75d0-4a00-a15e-10920de82aa3")
-		(property "Reference" "D2"
-			(at 66.04 159.7024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "151031SS06000"
-			(at 59.69 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 63.5 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151031SS06000.pdf"
-			(at 63.5 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 640nm LED Indication - Discrete 2.2V Radial"
-			(at 63.5 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "151031SS06000"
-			(at 63.5 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "732-5006-ND"
-			(at 63.5 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 63.5 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "LED_12V"
-			(at 66.04 162.2424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 63.5 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Forward Voltage" "2.2 V"
-			(at 66.04 164.7824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Max Current" "20 mA"
-			(at 66.04 167.3224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "5fb47266-ebc3-4038-99b8-ac907249ccb4")
-		)
-		(pin "2"
-			(uuid "88b5036c-0611-4fe0-a11a-23fe444090bd")
-		)
-		(instances
-			(project ""
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "151031SS06000_1")
-		(lib_id "klipper-switch:151031SS06000")
-		(at 139.7 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ad4df6a-537c-4af2-8f35-fc9f421c14e3")
-		(property "Reference" "D4"
-			(at 142.24 159.7024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "151031SS06000"
-			(at 135.89 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/151031SS06000.pdf"
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 640nm LED Indication - Discrete 2.2V Radial"
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "151031SS06000"
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "732-5006-ND"
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "LED_48V"
-			(at 142.24 162.2424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Forward Voltage" "2.2 V"
-			(at 142.24 164.7824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Max Current" "20 mA"
-			(at 142.24 167.3224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "84d4d548-c920-428b-a3af-b69c0898e91e")
-		)
-		(pin "2"
-			(uuid "fb08dfb8-beda-4aef-8ffe-881d709d7e13")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 63.5 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b5bab69-8ef5-4d50-8ef1-99c71213d92e")
-		(property "Reference" "#PWR015"
-			(at 63.5 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 63.5 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9808cd53-4dd4-46a8-b21f-fd7a88a465af")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 36.83 0)
 		(unit 1)
@@ -6032,137 +2818,6 @@
 			(project "klipper-switch"
 				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 139.7 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77e1921d-58dd-4654-a403-d9fea3c782da")
-		(property "Reference" "#PWR021"
-			(at 139.7 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 193.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c6aa3a9-7c87-4ef6-a94e-97312081d8f3")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+48V")
-		(at 127 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79530865-13f3-4f50-b160-23c19bc702d5")
-		(property "Reference" "#PWR019"
-			(at 127 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+48V"
-			(at 127 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 127 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfa091f6-148c-4bb4-bae4-b93009e3c092")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6292,319 +2947,50 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 25.4 182.88 0)
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 52.07 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "801e1bdd-a908-422b-b87b-7b6fe27403aa")
-		(property "Reference" "#PWR04"
-			(at 25.4 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 186.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a108310-b940-4d4b-9a74-c36f1899eb90")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 88.9 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bd6ce47-ec33-49a0-9b09-f3e1690499d9")
-		(property "Reference" "#PWR016"
-			(at 88.9 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 88.9 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 88.9 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5dcd5dca-d6ba-4560-8d63-e01dddcc9d55")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "klipper-switch:RC1206FR-7W100RL_1")
-		(at 25.4 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ed945a7-4541-403a-aa0a-a5705645b253")
-		(property "Reference" "R1"
-			(at 27.94 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 27.94 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 23.622 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 25.4 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 Ohms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
-			(at 25.4 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "13-RC1206FR-7W100RLCT-ND"
-			(at 25.4 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 25.4 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "R_LED"
-			(at 27.94 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer#" "RC1206FR-7W100RL"
-			(at 25.4 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 25.4 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Series" "RC_L"
-			(at 25.4 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 27.94 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "e4ad5349-faa4-45a4-9618-98aa6305ce68")
-		)
-		(pin "1"
-			(uuid "316742b3-52c4-4860-b412-06254dc26600")
-		)
-		(instances
-			(project ""
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "430450400_1")
-		(lib_id "klipper-switch:430450400")
-		(at 45.72 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab96ea55-9733-4053-b764-6ac223a311b2")
+		(uuid "853d4e48-81bc-4075-baa3-663c84df73c6")
 		(property "Reference" "J7"
-			(at 59.69 93.9799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "430450400"
-			(at 59.69 96.5199 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KiCAD-RevB-footprint-library:0430450400"
-			(at 45.72 91.44 0)
+			(at 45.212 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Value" "VOLTAGE SELECTOR"
+			(at 53.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
-			(at 45.72 91.44 0)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/022284360_sd.pdf"
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
-			(at 45.72 91.44 0)
+		(property "Description" "CONN HEADER VERT 2.54MM"
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,7 +2999,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 45.72 91.44 0)
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,8 +3007,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer#" "0430450400"
-			(at 45.72 91.44 0)
+		(property "Manufacturer#" "0022284360"
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +3017,7 @@
 			)
 		)
 		(property "Supplier" "Digikey Electronics, Inc."
-			(at 45.72 91.44 0)
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,8 +3025,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier#" "WM1814-ND"
-			(at 45.72 91.44 0)
+		(property "Supplier#" "WM50014-36-ND"
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6648,29 +3034,40 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "ROLE"
-			(at 63.246 93.98 0)
+		(property "Role" "CH_A"
+			(at 52.07 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
-		)
-		(pin "1"
-			(uuid "a4aeea7f-126a-4da0-9cdd-0ec4ffac63ce")
 		)
 		(pin "2"
-			(uuid "8f2fa9ec-c676-4b0b-bfe3-9de2900e35f7")
+			(uuid "f1a7a0a1-16d7-4eaf-854d-a96d839c214d")
 		)
 		(pin "3"
-			(uuid "0224bd2a-2fff-4e2d-992c-860f2bd21e21")
+			(uuid "c5495255-afab-4e18-8340-c8586511cebe")
+		)
+		(pin "1"
+			(uuid "9b4c1e7d-5f0a-4c2b-88f9-bdfebc4859b8")
+		)
+		(pin "8"
+			(uuid "8e290049-7a80-4643-bc33-55cdf09de2e5")
+		)
+		(pin "6"
+			(uuid "20beee8f-3d06-4c9a-9c0c-9c5a75f13b0e")
+		)
+		(pin "7"
+			(uuid "054a208d-ef72-4530-bf63-5102ab59a334")
+		)
+		(pin "5"
+			(uuid "e30db116-043b-40ca-94dc-1f369350d263")
 		)
 		(pin "4"
-			(uuid "a929ce10-d1a6-41af-bdf0-b78dc0a48fbd")
+			(uuid "ba2ab526-b214-4649-8621-ebc015a01fe7")
 		)
 		(instances
-			(project "klipper-switch"
+			(project ""
 				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
 					(reference "J7")
 					(unit 1)
@@ -6679,17 +3076,26 @@
 		)
 	)
 	(symbol
-		(lib_id "klipper-switch:RC1206FR-7W100RL_1")
-		(at 139.7 152.4 0)
+		(lib_id "power:+48V")
+		(at 39.37 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad1e6aad-9adb-4839-b9ab-93f2567a7c41")
-		(property "Reference" "R4"
-			(at 142.24 148.5899 0)
+		(uuid "a2b54349-51b8-4157-9b8a-55c900a52224")
+		(property "Reference" "#PWR029"
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 35.56 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,17 +3103,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
-			(at 142.24 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 137.922 152.4 90)
+		(property "Footprint" ""
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,8 +3112,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 139.7 152.4 0)
+		(property "Datasheet" ""
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,225 +3121,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
-			(at 139.7 152.4 0)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 39.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Supplier#" "13-RC1206FR-7W100RLCT-ND"
-			(at 139.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 139.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "R_LED"
-			(at 142.24 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer#" "RC1206FR-7W100RL"
-			(at 139.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 139.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Series" "RC_L"
-			(at 139.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 142.24 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "3479dc79-5594-4e0b-83b6-16b1f4f9a41f")
 		)
 		(pin "1"
-			(uuid "cca7a739-5b8c-41d7-b9a7-bb90b13a9a3d")
+			(uuid "0f941b8e-a6cf-4647-b0c1-d1d44838538d")
 		)
 		(instances
 			(project "klipper-switch"
 				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "klipper-switch:RK7002BMT116")
-		(at 99.06 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4622572-3019-4bcb-b851-08def57612a4")
-		(property "Reference" "Q2"
-			(at 105.41 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RK7002BMT116"
-			(at 105.41 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "klipper-switch:RK7002BMT116"
-			(at 104.14 179.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=RK7002BM&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
-			(at 104.14 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 60 V 250mA (Ta) 200mW (Ta) Surface Mount SST3"
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" ""
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics"
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "RK7002BMT116CT-ND"
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Rohm Semiconductor"
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part # " "C157736"
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "NULL"
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "SW_LED"
-			(at 116.84 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bd21250f-b673-4a89-bc70-013d7e17a22d")
-		)
-		(pin "3"
-			(uuid "cf9f4bd7-0d3b-48d8-9e3e-a70a1a1bc66f")
-		)
-		(pin "1"
-			(uuid "d95d6614-ab7d-4a24-86b0-7895265394df")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "Q2")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7014,34 +3208,17 @@
 		)
 	)
 	(symbol
-		(lib_id "klipper-switch:RC1206FR-07100KL")
-		(at 127 152.4 180)
+		(lib_id "power:+24V")
+		(at 39.37 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c22db35f-e055-4f60-acac-ba8481d62ffd")
-		(property "Reference" "R7"
-			(at 129.54 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100K"
-			(at 129.54 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 128.778 152.4 90)
+		(fields_autoplaced yes)
+		(uuid "c4b97a71-3acd-4d8a-9069-65cc2868d7e8")
+		(property "Reference" "#PWR028"
+			(at 43.18 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,8 +3226,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 127 152.4 0)
+		(property "Value" "+24V"
+			(at 35.56 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,8 +3244,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
-			(at 127 152.4 0)
+		(property "Datasheet" ""
+			(at 39.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,79 +3253,89 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier#" "311-100KFRCT-ND"
-			(at 127 152.4 0)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 39.37 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 127 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "R_ZENDER_LIMIT"
-			(at 123.698 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Manufacturer#" "RC1206FR-07100KL"
-			(at 127 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 127 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Series" "RC_L"
-			(at 127 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 129.54 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "4f7568ac-7711-432c-a0df-ec983d3e4be9")
 		)
 		(pin "1"
-			(uuid "7515249f-f51b-48f6-b07d-837161a82f04")
+			(uuid "f02d2f66-b58a-4843-b6cd-7afd19566252")
 		)
 		(instances
 			(project "klipper-switch"
 				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "R7")
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 39.37 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9a70418-6009-4f5e-a88d-3c797f30338a")
+		(property "Reference" "#PWR027"
+			(at 43.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 35.56 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 39.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dab4c61-a077-4c3a-9efb-22e597373a0c")
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7212,207 +3408,9 @@
 		)
 	)
 	(symbol
-		(lib_id "klipper-switch:RC1206FR-07100KL")
-		(at 50.8 152.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0d06237-1301-4089-8e83-3913a765cfff")
-		(property "Reference" "R5"
-			(at 53.34 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100K"
-			(at 53.34 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 52.578 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "311-100KFRCT-ND"
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "R_ZENDER_LIMIT"
-			(at 47.498 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Manufacturer#" "RC1206FR-07100KL"
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Series" "RC_L"
-			(at 50.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 53.34 156.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "15db1259-094d-4708-b0a0-e9b139c621aa")
-		)
-		(pin "1"
-			(uuid "ca79cb82-1c0a-43fe-bcd4-b422c246375f")
-		)
-		(instances
-			(project ""
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 139.7 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1533508-4e81-4626-9d5e-a3ce4f58af6a")
-		(property "Reference" "#PWR020"
-			(at 139.7 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 139.7 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 139.7 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3184d9a-b669-40c1-8249-b0a86fc73f61")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "430450400_1")
 		(lib_id "klipper-switch:430450400")
-		(at 45.72 66.04 0)
+		(at 109.22 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7420,7 +3418,7 @@
 		(dnp no)
 		(uuid "e54a2838-28c4-4562-922d-748fa7a31d24")
 		(property "Reference" "J6"
-			(at 59.69 68.5799 0)
+			(at 123.19 64.7699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7429,7 +3427,7 @@
 			)
 		)
 		(property "Value" "430450400"
-			(at 59.69 71.1199 0)
+			(at 123.19 67.31 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7438,7 +3436,7 @@
 			)
 		)
 		(property "Footprint" "KiCAD-RevB-footprint-library:0430450400"
-			(at 45.72 66.04 0)
+			(at 109.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +3446,7 @@
 			)
 		)
 		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
-			(at 45.72 66.04 0)
+			(at 109.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7458,7 +3456,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
-			(at 45.72 66.04 0)
+			(at 109.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,7 +3465,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 45.72 66.04 0)
+			(at 109.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +3474,7 @@
 			)
 		)
 		(property "Manufacturer#" "0430450400"
-			(at 45.72 66.04 0)
+			(at 109.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +3483,7 @@
 			)
 		)
 		(property "Supplier" "Digikey Electronics, Inc."
-			(at 45.72 66.04 0)
+			(at 109.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,7 +3492,7 @@
 			)
 		)
 		(property "Supplier#" "WM1814-ND"
-			(at 45.72 66.04 0)
+			(at 109.22 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7502,8 +3500,8 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "ROLE"
-			(at 63.246 68.58 0)
+		(property "Role" "CHANNEL_A"
+			(at 126.746 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,592 +3591,6 @@
 			(project "klipper-switch"
 				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "klipper-switch:RK7002BMT116")
-		(at 137.16 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f30508c3-3552-4af1-8059-17a2f2fe3447")
-		(property "Reference" "Q3"
-			(at 143.51 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RK7002BMT116"
-			(at 143.51 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "klipper-switch:RK7002BMT116"
-			(at 142.24 179.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=RK7002BM&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
-			(at 142.24 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 60 V 250mA (Ta) 200mW (Ta) Surface Mount SST3"
-			(at 137.16 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" ""
-			(at 137.16 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics"
-			(at 137.16 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "RK7002BMT116CT-ND"
-			(at 137.16 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Rohm Semiconductor"
-			(at 137.16 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part # " "C157736"
-			(at 137.16 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "NULL"
-			(at 137.16 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "SW_LED"
-			(at 154.94 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3b307bb1-05c6-4dc2-a462-9ee7070c11a3")
-		)
-		(pin "3"
-			(uuid "c0010343-1a82-4210-b6ce-88cdd0b595c6")
-		)
-		(pin "1"
-			(uuid "aa9c8458-5572-4d59-bab6-139282d653c5")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "klipper-switch:RK7002BMT116")
-		(at 60.96 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f554a405-6bdc-4d20-9dda-99bb7a86c8de")
-		(property "Reference" "Q1"
-			(at 67.31 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RK7002BMT116"
-			(at 67.31 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "klipper-switch:RK7002BMT116"
-			(at 66.04 179.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=RK7002BM&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key"
-			(at 66.04 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 60 V 250mA (Ta) 200mW (Ta) Surface Mount SST3"
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" ""
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics"
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "RK7002BMT116CT-ND"
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Rohm Semiconductor"
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part # " "C157736"
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "NULL"
-			(at 60.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "SW_LED"
-			(at 78.74 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "02d2e7f8-9006-4855-ab04-f88ecaadd091")
-		)
-		(pin "3"
-			(uuid "d40be2c8-4070-490b-b73b-360640e24070")
-		)
-		(pin "1"
-			(uuid "1b66661e-f630-46ba-8832-af8e96a8db71")
-		)
-		(instances
-			(project ""
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "430450400_1")
-		(lib_id "klipper-switch:430450400")
-		(at 109.22 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7b8ce00-f10a-4c63-bf1e-04c4a525d9f4")
-		(property "Reference" "J8"
-			(at 123.19 68.5799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "430450400"
-			(at 123.19 71.1199 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KiCAD-RevB-footprint-library:0430450400"
-			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
-			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
-			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "0430450400"
-			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "WM1814-ND"
-			(at 109.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "ROLE"
-			(at 126.746 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "765a363f-87be-4df3-8d86-89f7fa88d27b")
-		)
-		(pin "2"
-			(uuid "1907341d-e098-460f-af2b-39f24ad49a9b")
-		)
-		(pin "3"
-			(uuid "3be5c351-0734-43b8-8bce-527b8725f9f6")
-		)
-		(pin "4"
-			(uuid "eaf252f6-2f98-4d3a-ab08-ac49745360a8")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 101.6 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7ccc1d5-788d-4b6d-91e1-1f689bcb5766")
-		(property "Reference" "#PWR017"
-			(at 101.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 101.6 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83ab8588-3345-4206-b865-55648342f949")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "430450400_1")
-		(lib_id "klipper-switch:430450400")
-		(at 236.22 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb7444d4-666d-4030-93fe-c6cf1b982199")
-		(property "Reference" "J12"
-			(at 250.19 68.5799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "430450400"
-			(at 250.19 71.1199 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KiCAD-RevB-footprint-library:0430450400"
-			(at 236.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
-			(at 236.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
-			(at 236.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 236.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "0430450400"
-			(at 236.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 236.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "WM1814-ND"
-			(at 236.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "ROLE"
-			(at 253.746 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "1596a87e-5f94-4ea7-8d6f-bbdb98796c65")
-		)
-		(pin "2"
-			(uuid "8ca3636d-362a-47b4-90b0-3d402c3fc193")
-		)
-		(pin "3"
-			(uuid "f4d39c6b-9854-4d5e-8f29-310c2fe481ce")
-		)
-		(pin "4"
-			(uuid "cc80d143-fe6b-4c92-ae39-99b3cbf03977")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -8302,261 +3714,6 @@
 			(project "klipper-switch"
 				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "430450400_1")
-		(lib_id "klipper-switch:430450400")
-		(at 172.72 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fee35760-981e-4f60-a9af-eb7b8900901a")
-		(property "Reference" "J11"
-			(at 186.69 93.9799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "430450400"
-			(at 186.69 96.5199 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KiCAD-RevB-footprint-library:0430450400"
-			(at 172.72 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-43045.pdf"
-			(at 172.72 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Header Through Hole, Right Angle 4 position 0.118\" (3.00mm)"
-			(at 172.72 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 172.72 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "0430450400"
-			(at 172.72 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 172.72 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "WM1814-ND"
-			(at 172.72 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "ROLE"
-			(at 190.246 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "07f64230-c0e4-4fcf-80e8-4c3bd01a6d14")
-		)
-		(pin "2"
-			(uuid "202b5af4-913b-4547-8b16-992ce654dec1")
-		)
-		(pin "3"
-			(uuid "aea3a655-044d-43d8-9d63-3bcd1b7c577a")
-		)
-		(pin "4"
-			(uuid "2a9973e9-c894-416f-9afd-3f35ef381e89")
-		)
-		(instances
-			(project "klipper-switch"
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "klipper-switch:MM3Z18VT1G")
-		(at 50.8 181.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff2bdec3-2060-4945-95d5-2610a305f6f1")
-		(property "Reference" "D5"
-			(at 53.34 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MM3Z18VT1G"
-			(at 47.244 174.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 50.8 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/9/MM3ZyyyT1G_SZMM3ZyyyT1G_Series_rev.11_Sep2014.pdf"
-			(at 50.8 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Diode 18 V 300 mW ±6% Surface Mount SOD-323"
-			(at 50.8 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey Electronics, Inc."
-			(at 50.8 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer#" "MM3Z18VT1GOSCT-ND"
-			(at 50.8 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier#" "MM3Z18VT1GOSCT-ND"
-			(at 50.8 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 50.8 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "ZENER"
-			(at 50.8 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Zener Voltage" "18 VDC"
-			(at 50.8 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Max Power" "300 mW"
-			(at 50.8 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "afe7e5b3-ef12-4f1c-833d-fc003fbdea77")
-		)
-		(pin "1"
-			(uuid "36f3a19c-fb4f-4f1f-a804-63deb5c21438")
-		)
-		(instances
-			(project ""
-				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e/90668f02-67a5-40c7-9a80-63d16eb24585"
-					(reference "D5")
 					(unit 1)
 				)
 			)
