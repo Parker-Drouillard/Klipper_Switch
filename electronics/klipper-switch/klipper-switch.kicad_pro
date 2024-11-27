@@ -416,6 +416,18 @@
     [
       "8040985a-5eaa-4ffd-a81f-f30f9f1fb608",
       "pico"
+    ],
+    [
+      "e09baa11-0f0f-4a75-93cd-ed9c56dbfe89",
+      "switches"
+    ],
+    [
+      "b0f08f3a-364c-4de3-9791-29197c17985e",
+      "opto-isolators"
+    ],
+    [
+      "90668f02-67a5-40c7-9a80-63d16eb24585",
+      "connectors"
     ]
   ],
   "text_variables": {}

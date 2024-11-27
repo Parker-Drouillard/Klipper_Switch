@@ -47,6 +47,120 @@
 			)
 		)
 	)
+	(sheet
+		(at 127 25.4)
+		(size 38.1 114.3)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90668f02-67a5-40c7-9a80-63d16eb24585")
+		(property "Sheetname" "connectors"
+			(at 127 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 127 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 88.9)
+		(size 25.4 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0f08f3a-364c-4de3-9791-29197c17985e")
+		(property "Sheetname" "opto-isolators"
+			(at 76.2 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opto-isolators.kicad_sch"
+			(at 76.2 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 25.4 50.8)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e09baa11-0f0f-4a75-93cd-ed9c56dbfe89")
+		(property "Sheetname" "switches"
+			(at 76.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switches.kicad_sch"
+			(at 76.2 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "klipper-switch"
+				(path "/e5df92b1-e048-41e8-96e5-ed9a12dbef0e"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
